@@ -1,0 +1,64 @@
+.footer{
+    background-color:var(--blue);
+    color: white;
+    /* background-color: var(--lightblack); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    text-align: center;
+
+}
+.homedonate>div>p{
+    color: var(--blue);
+    text-align: center;
+    
+}
+.footerbody{
+    background-color: #FED8B1;
+}
+.footercontactinfo>div:nth-child(2){
+    text-align: center;
+    padding: 14px;
+}
+.footercontactinfo>div>svg{
+    color: white;
+    margin: 6px 1px -3px 0;
+    font-size: 1.1rem;
+}
+.footercontactinfo>div>span{
+    color: var(--darkgray);
+    font-size: 14px;
+}
+.footercontactinfo>div>span>a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.followusdiv>p:nth-child(1){
+    color: white;
+    margin: 0 24px 0 0;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+.followusdiv>p:nth-child(2)>a>svg{
+    font-size: 2rem;
+    color: white;
+}
+.followusdiv>p:nth-child(2){}
+.followusdiv>p:nth-child(3)>a>svg{
+    font-size: 2rem;
+    color:white;
+    margin: 0 3px 0 3px;
+    cursor: pointer;
+}
+.followusdiv>p:nth-child(3){}
+.followusdiv>p:nth-child(4)>a>svg{
+    font-size: 2rem;
+    color:white;
+}
+.followusdiv>p>a>svg:hover{
+    color: orange;
+    
+}

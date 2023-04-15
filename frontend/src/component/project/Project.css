@@ -1,0 +1,262 @@
+.projectheader{
+    width: 100vw;
+    margin: 0 auto 40px auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.projectheader>h2{
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+    word-spacing: 2px;
+}
+.projectsec1{
+    width: 80vw;
+    margin: 0px auto 25px auto;
+}
+.projectsec1>p{
+    font-size: 14px;
+    color: var(--darkgray);
+}
+.projectsec2{
+    width: 80vw;
+    margin: 0 auto 35px auto;
+
+}
+.projectsec2>p{
+    font-size: 14px;
+    color: var(--darkgray);
+}
+.projectsec3>div{
+    width: 80vw;
+    margin: 0 auto 0 auto;
+}
+.projectsec3>div>h3{
+    text-align: center;
+    padding: 0 0 15px 0;
+    font-size: 2.2rem;
+}
+.projectsec3>div>div{
+    width: 80vw;
+    box-shadow: 0 0 5px silver;
+    padding: 15px 60px 15px 60px;
+    border-radius: 5px;
+    margin: 15px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.projectsec3{
+    background-color: #FED8B1;
+    padding: 24px 0 20px 0;
+    margin: 0 0 0px 0;
+}
+.projectsec3>div>div>p>strong{
+    font-family: Roboto;
+    letter-spacing: 1px;
+    font-size: large;
+    color: var(--darkblue);
+}
+.projectsec3>div>div>p:nth-child(1){
+    padding: 0 0 0 0px;
+    width: 270px;
+}
+.projectsec3>div>div>p:nth-child(2){
+    width: 270px;
+    color: var(--blue);
+}
+.projectsec1img{
+    width: 80vw;
+    margin: auto;
+    height: 700px;
+}
+.projectsec1img>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.projectsec3>div>p{
+    width: 80vw;
+    margin: auto;
+    height: 600px;
+
+}
+.projectsec3>div>p>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+.noprojectsec3>div>p>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.noprojectsec3>div{
+    width: 80vw;
+    margin: 0 auto 0 auto;
+}
+.noprojectsec3>div>h3{
+    text-align: center;
+    padding: 0 0 15px 0;
+    font-size: 2.2rem;
+    
+}
+.nonewprojectcost{
+    display: none;
+}
+.newprojectcost{
+    background-color: #4CC552;
+    color: white;
+    padding: 45px 0 41px 51px;
+    font-size: 1.6rem;
+    font-family: 'Roboto';
+    letter-spacing: 1.5px;
+    width: 80vw;
+    margin: auto;
+
+}
+.newprojectcost1{
+    text-align: center;
+    background: #4CC552;
+    color: white;
+    font-family: 'Montserrat';
+    letter-spacing: 1.5px;
+    font-size: 1.1rem;
+    padding: 0 0 53px 0;
+    width: 80vw;
+    margin: auto;
+}
+.newprojectcost2{
+    background: #4CC552;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 85px 0;
+    overflow-x: scroll;
+}
+.newprojectcost2>tbody>tr>th{
+    color: white;
+    padding: 10px 30px 34px 30px;
+    text-align: center;
+    
+}
+.newprojectcost2>tbody>tr>td{
+    color: white;
+    padding: 10px 30px 34px 30px;
+    text-align: center;
+    font-size: 14px;
+    width: 80vw;
+    margin: auto;
+}
+.newprojectcost2>tbody>tr>td>svg{
+    font-size: 2.2rem;
+}
+.newprojectcost3>div{
+    display: flex;
+    flex-basis: colum;
+    flex-direction: column;
+    background: orange;
+    padding: 5px 35px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto';
+    box-shadow: 0 0 2px 3px silver;
+    position: absolute;
+    right: 15%;
+}
+.newprojectcost3>div>p:nth-child(1){
+    font-size: 1.1rem;
+    text-align: center;
+}
+.newprojectcost3>div>p:nth-child(2){
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+@media screen and (max-width:650px) {
+    .projectheader>h2{
+        font-size: 1.3rem;
+        padding: 5px 30px;
+    }
+    .projectsec1>p,.projectsec2>p,.projectsec3>div>p{
+        font-size: 13px;
+    }
+    .newprojectcost2,.newprojectcost,.newprojectcost1{
+        width: 100vw;
+    }
+    .newprojectcost2>tbody>tr>th {
+        padding: 10px 10px 20px 10px;
+       
+    }
+    .newprojectcost2>tbody>tr>td {
+        padding: 10px 10px 20px 10px;
+       
+    }
+    .newprojectcost{
+        padding: 45px 0 28px 34px;
+    }
+   
+
+    
+}
+
+@media screen and (max-width:800px) {
+    .projectsec3>div>div{
+        flex-direction: column;
+    }
+    .projectsec3>div>div>p:nth-child(2) {
+        padding: 10px 0 0 0;
+    }
+    .projectsec3>div>h3{
+        font-size: 1.5rem;
+
+    }
+    .projectsec3>div>p{
+        height: auto;
+    }
+    .noprojectsec3>div>h3 {
+        font-size: 1.5rem;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .projectsec3>div>div{
+        padding: 0 0 0 0;
+        margin: 0 0 15px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .projectsec3>div>div>p:nth-child(1){
+        width: 270px;
+        text-align: center;
+    }
+    .projectsec3>div>div>p>strong {
+        font-family: Roboto;
+        letter-spacing: 1px;
+        color: var(--darkblue);
+        font-size: initial;
+    }
+    .projectsec3>div>div>p:nth-child(2) {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:1200px) {
+    .projectsec1img{
+        height: auto;
+    }
+    
+}
+
+

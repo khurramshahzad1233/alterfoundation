@@ -1,0 +1,101 @@
+
+.donationsec1{
+    margin-top: 64px;
+    padding: 41px 0 53px 0;
+
+  }
+.bank-details {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80vw;
+    margin: 0px auto 0 auto;
+    box-shadow: 0 0 5px silver;
+  }
+  .bank-details>h2{
+    text-align: center;
+    border-bottom: 1px solid var(--lightblack);
+    margin: auto;
+    width: 30vw;
+  }
+  .bank-info {
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px silver;
+    background-color: white;
+    border-radius: 5px;
+    padding: 7px 36px;
+  }
+  
+  h3 {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: Roboto;
+  }
+  
+  .bank-details>div>p{
+    color: var(--blue);
+  }
+  .onlinepaymentcontainer{
+    background-color: aliceblue;
+    padding: 30px 0;
+  }
+  .onlinepaymentcontainer>h4{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Roboto;
+    margin:10px 0 29px 0;
+  }
+  .onlinepaymentcontainer>div{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px silver;
+    border-radius: 5px;
+    padding: 15px 0;
+  }
+  .onlinepaymentcontainer>div>p{
+    width: 90%;
+    background-color: white;
+    margin: 5px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--darkblue);
+    font-weight: 600;
+    cursor: pointer;
+    
+  }
+  .onlinepaymentcontainer>div>p:nth-child(6){
+    background-color: var(--blue);
+    color: white;
+  }
+  .onlinepaymentcontainer>div>p:hover{
+    background-color: var(--blue);
+    color: white;
+  }
+  .bank-info:hover{
+    background-color: var(--blue);
+    color: white;
+  }
+  .bank-info:hover>p{
+    color: white;
+  }
+  .bank-details>h2:hover{
+    color:var(--blue);
+  }
+  
+
+  @media screen and (max-width:575px) {
+
+    .bank-info>h3{
+      font-size: initial;
+    }
+    .onlinepaymentcontainer>h4{
+      font-size: 1.1rem;
+    }
+  }
+  
+  

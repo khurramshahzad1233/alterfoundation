@@ -1,0 +1,74 @@
+.joinsec1{
+    width: 100vw;
+    margin-top: 64px;
+    background-color: #FED8B1;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.joinsec1>div{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px white;
+    border-radius: 5px;
+    padding: 15px 0;
+}
+.joinsec1>div>form{
+    width: 90%;
+}
+.joinsec1>div>form>div>input{
+    width: 100%;
+    margin: 5px;
+    border: none;
+    box-shadow: 0 0 3px silver;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.joinsec1>div>form>div:nth-child(7)>input{
+    background-color: var(--blue);
+    color: white;
+    font-size: 1.1rem;
+    font-family: Roboto;
+}
+.joinsec1>div>form>div:nth-child(6)>select{
+    width: 100%;
+    margin: 5px;
+    border: none;
+    box-shadow: 0 0 3px silver;
+    padding: 10px 20px;
+    border-radius: 5px;
+   
+   
+    font-family: Roboto;
+}
+.joinsec1>div>h3{
+    font-size: 1.5rem;
+}
+
+
+
+@media screen and (max-width:450px) {
+    .joinsec1>div>h3{
+        font-size: 0.9rem;
+        padding: 0 5px;
+        text-align: center;
+    }
+    .joinsec1>div{
+        width: 85vw;
+    }
+    .joinsec1>div>form>div:nth-child(6)>input{
+        font-size: 1rem;
+    }
+    
+}
+@media screen and (max-width:590px) {
+    .joinsec1>div>h3{
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+}
